@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
 import dotnenv from "dotenv";
-import assetRoutes from "./routes/assetRoutes.js";
-import avatarRoutes from '/routes/avatarRoutes.js'
+import assetRoutes from "./routes/assets.js";
+import avatarRoutes from './routes/avatar.js'
 
 dotnenv.config();
 

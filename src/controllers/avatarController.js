@@ -1,4 +1,4 @@
-import Avatar from "../models/Avatar";
+import Avatar from "../models/Avatar.js";
 
 
 

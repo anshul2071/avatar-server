@@ -1,6 +1,6 @@
-import Asset from "../models/Asset";
+import Asset from "../models/Asset.js";
 import axios from "axios";
-import { downloadAsset } from "../utils/downloadAsset";
+import { downloadAsset } from "../utils/downloadAsset.js";
 
 
 const SKETCHFAB_TOKEN = process.env.SKETCHFAB_TOKEN;

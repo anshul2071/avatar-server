@@ -1,11 +1,11 @@
-import express from 'express';
+import {Router} from 'express';
 import {
     saveAvatar,
     loadAvatar
-} from '../controllers/avatarController';
+} from '../controllers/avatarController.js';
 
 
-const router = express.Router()
+const router = Router()
 
 router.post('/', saveAvatar);
 router.get('/:id', loadAvatar);
